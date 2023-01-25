@@ -1,7 +1,6 @@
 <a name="readme-top"></a>
 
 <div align="center">
-![image]()
     <img src="./calculator.jpg" alt="logo" width="700"  height="auto" />
   <br/>
 
