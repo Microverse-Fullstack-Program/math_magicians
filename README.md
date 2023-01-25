@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-![image](https://user-images.githubusercontent.com/73167960/214686597-53fe90ff-6cef-4296-b90a-3fb15d611c0d.png)
+![image](./calculator.jepg)
   <br/>
 
   <h3><b>Calculator APP Developed Using React </b></h3>
@@ -36,11 +36,9 @@
 
 # 📖 [Math Magicians] <a name="about-project"></a>
 
-> The **Math magicians** app is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+> **Math magicians** app is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 > - Make simple calculations.
-> - Read a random math-related quote.
-
-**[Math Magicians]** 
+> - Read a random math-related quote. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -58,6 +56,7 @@
 > The key features of this website include.
 
 > - **Interactive**
+> - **Virtual DOM**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LIVE DEMO -->
@@ -116,7 +115,7 @@ This project can be used to learn and practice basics of React.js. Specifically;
 * React components.
 * React Events.
 * Refactor with hooks.
-> # Getting Started with Create React App
+> #### Getting Started with Create React App
 > - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
