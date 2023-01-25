@@ -1,8 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-
-  ![image](./calculator.JPG)
+![image](./calculator.jepg)
   <br/>
 
   <h3><b>Calculator APP Developed Using React </b></h3>
