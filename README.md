@@ -1,8 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-
-  ![image](https://user-images.githubusercontent.com/73167960/213892955-1ee89085-7ced-4ae0-af66-b37d405d5a9b.png)
+![image](https://user-images.githubusercontent.com/73167960/214686597-53fe90ff-6cef-4296-b90a-3fb15d611c0d.png)
   <br/>
 
   <h3><b>Calculator APP Developed Using React </b></h3>
@@ -90,8 +89,7 @@ Clone this repository to your desired folder:
  > git clone https://github.com/Microverse-Fullstack-Program/math_magicians.git
 5. Alternatively, you can download the zip file of your project by clicking on the Code button on the right side of your project page and clicking on Download ZIP
 
-## Available Scripts
-
+## Install and Run
 In the project directory, you can run:
 
 ### `npm start`
