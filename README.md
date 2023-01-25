@@ -90,7 +90,7 @@ Clone this repository to your desired folder:
  > git clone https://github.com/Microverse-Fullstack-Program/math_magicians.git
 5. Alternatively, you can download the zip file of your project by clicking on the Code button on the right side of your project page and clicking on Download ZIP
 
-## Available Scripts
+## Install and Run
 
 In the project directory, you can run:
 
