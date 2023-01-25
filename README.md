@@ -1,7 +1,8 @@
 <a name="readme-top"></a>
 
 <div align="center">
-![image](./calculator.jpg)
+![image]()
+    <img src="./calculator.jpg" alt="logo" width="700"  height="auto" />
   <br/>
 
   <h3><b>Calculator APP Developed Using React </b></h3>
