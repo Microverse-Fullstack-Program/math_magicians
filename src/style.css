@@ -35,7 +35,7 @@ button {
   font-size: 16px;
 }
 
-button .button-rows {
+.button-rows button {
   width: 25%;
   height: 4vw;
   background-color: #e7e7ee;
@@ -46,7 +46,7 @@ button .button-rows {
   grid-template-columns: 2fr 1fr 1fr;
 }
 
-button .last-row {
+.last-row button {
   height: 4vw;
   background-color: #e7e7ee;
 }
