@@ -1,77 +1,85 @@
 import React from 'react';
+import calculate from '../logic/calculate';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Calculator extends React.Component {
   render() {
-    return (
+      return (
       <div className="calc-container">
-        <div className="output-bar" />
+        <div className="output-bar">
+          { total }
+          {' '}
+          { operation }
+          {' '}
+          { next }
+        </div>
+
         <div>
           <div className="button-rows">
-            <button type="button" name="AC">
+            <button type="button" name="AC" onClick={onClickEvent}>
               AC
             </button>
-            <button type="button" name="plusMinus">
+            <button type="button" name="+/-" onClick={onClickEvent}>
               +/-
             </button>
-            <button type="button" name="percentage">
+            <button type="button" name="%" onClick={onClickEvent}>
               %
             </button>
-            <button type="button" name="division">
+            <button type="button" name="/" onClick={onClickEvent}>
               ÷
             </button>
           </div>
           <div className="button-rows">
-            <button type="button" name="seven">
+            <button type="button" name="7" onClick={onClickEvent}>
               7
             </button>
-            <button type="button" name="eight">
+            <button type="button" name="8" onClick={onClickEvent}>
               8
             </button>
-            <button type="button" name="nine">
+            <button type="button" name="9" onClick={onClickEvent}>
               9
             </button>
-            <button type="button" name="ten">
+            <button type="button" name="x" onClick={onClickEvent}>
               X
             </button>
           </div>
 
           <div className="button-rows">
-            <button type="button" name="four">
+            <button type="button" name="4" onClick={onClickEvent}>
               4
             </button>
-            <button type="button" name="five">
+            <button type="button" name="5" onClick={onClickEvent}>
               5
             </button>
-            <button type="button" name="six">
+            <button type="button" name="6" onClick={onClickEvent}>
               6
             </button>
-            <button type="button" name="minus">
+            <button type="button" name="-" onClick={onClickEvent}>
               -
             </button>
           </div>
           <div className="button-rows">
-            <button type="button" name="one">
+            <button type="button" name="1" onClick={onClickEvent}>
               1
             </button>
-            <button type="button" name="two">
+            <button type="button" name="2" onClick={onClickEvent}>
               2
             </button>
-            <button type="button" name="three">
+            <button type="button" name="3" onClick={onClickEvent}>
               3
             </button>
-            <button type="button" name="four">
+            <button type="button" name="+" onClick={onClickEvent}>
               +
             </button>
           </div>
           <div className="last-row">
-            <button name="zero" type="button">
+            <button type="button" name="0" onClick={onClickEvent}>
               0
             </button>
-            <button name="dot" type="button">
+            <button type="button" name="." onClick={onClickEvent}>
               .
             </button>
-            <button name="equal" type="button">
+            <button type="button" name="=" onClick={onClickEvent}>
               =
             </button>
           </div>
