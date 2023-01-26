@@ -3,27 +3,8 @@ import calculate from '../logic/calculate';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      total: 0,
-      next: null,
-      operation: null,
-    };
-  }
-
   render() {
-    const onClickEvent = (event) => {
-      this.setState((state) => ({
-        ...state,
-        ...calculate(state, event.target.name),
-      }));
-    };
-
-    const { next, operation, total } = this.state;
-
-    return (
+      return (
       <div className="calc-container">
         <div className="output-bar">
           { total }
