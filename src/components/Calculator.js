@@ -1,18 +1,18 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
 const Calculator = () => {
-  [calcObj, setCalculation] = useState({
+  const [calcObj, setCalculation] = useState({
     total: 0,
     next: null,
-    operation: null
+    operation: null,
   });
 
   const onClickEvent = (event) => {
     const buttonName = event.currentTarget.textContent;
     const newState = calculate(calcObj, buttonName);
     setCalculation(newState);
-  }
+  };
 
   const { next, operation, total } = calcObj;
 
@@ -52,7 +52,7 @@ const Calculator = () => {
             9
           </button>
           <button type="button" name="x" onClick={onClickEvent}>
-            X
+            x
           </button>
         </div>
 
@@ -98,6 +98,6 @@ const Calculator = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Calculator;
