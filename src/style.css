@@ -73,7 +73,7 @@ body {
 }
 
 .home-content p {
-  font-weight:200;
+  font-weight: 200;
   font-style: normal;
   font-size: 22px;
   text-align: justify;
@@ -159,7 +159,7 @@ button {
   gap: 25px;
   font-size: 20px;
   font-style: normal;
-  text-align: justify ;
+  text-align: justify;
 }
 
 .math-quote li {
