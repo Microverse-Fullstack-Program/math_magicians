@@ -41,13 +41,20 @@
 > - Read a random math-related quote.
 
 ## 🛠 Built With <a name="built-with"></a>
+- HTML5 
+- CSS3
+- JavaScript
+- ReactJS
 
 ### Tech Stack <a name="tech-stack"></a>
 
 > - VS Editor
 > - GitHub and Gitflow
-> - JavaScript ES6
-> - React.js
+> - JavaScript ES6 Module
+> - ReactJS
+> - Web Pack
+> - Jest Test
+> - React Testing Library
 
 <!-- Features -->
 
@@ -57,6 +64,7 @@
 
 > - **Interactive**
 > - **Virtual DOM**
+> - **Use JSX**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LIVE DEMO -->
@@ -132,6 +140,16 @@ This project can be used to learn and practice basics of React.js. Specifically;
 - GitHub: [@githubhandle](https://github.com/cherelemma)
 - Twitter: [@twitterhandle](https://twitter.com/Chere21271613)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/chere-lemma27211613)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] Allow user to add qoutes
+- [ ] Add actual content to Homepage
+- [ ] Improve the UI/UX features
+- [ ] Add scientific calculator features 
+- [ ] Store the calculation history
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
