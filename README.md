@@ -71,7 +71,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](#)
+- [Live Demo Link](https://react-math-magician-p22w.onrender.com/calculator)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
